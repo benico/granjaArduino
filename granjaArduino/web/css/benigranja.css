@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/05/2015, 14:54:36
+    Author     : Winycius
+*/
+
+.centralizado{
+    text-align: center;
+}
+
+.body{
+    width: 1024px;
+    margin: auto;
+    display: block;
+}
+.box {    
+  width: 600px;  
+  margin: auto;
+  background-color: #fff;
+  border-color: #ddd;
+  border-width: 1px;
+  border-radius: 4px 4px 0 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: block;
+}
+
+.box-small {    
+  width: 300px;  
+  margin: auto;
+  background-color: #fff;
+  border-color: #ddd;
+  border-width: 1px;
+  border-radius: 4px 4px 0 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: block;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+footer{
+    background-color: #d4e0d3 ;
+    color: #000000;
+    margin: 20px 0 0 0;
+    padding: 10px 0;    
+}
+
+#main{
+    padding-top: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+.small-text p,ol,li{
+    font-size: 11pt;
+}
+
+.small-text img{    
+    width: 700px;
+}
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+.nonFooter {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+.stickyFooter {
+    height: 40px;
+}
+
+.login{
+    margin-top: 5%;
+    margin-bottom: auto;
+}
+
+.fundo{
+    background-image: url("../img/fundo.png");
+    
+}
